@@ -6,7 +6,7 @@ data class Product (
     @SerializedName( "id" )
     val id: String,
     @SerializedName( "prname" )
-    val prname: String,
+    val prName: String,
     @SerializedName( "primage" )
     val prImage: String,
     @SerializedName( "prprice" )
